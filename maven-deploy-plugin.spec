@@ -1,6 +1,6 @@
 Name:           maven-deploy-plugin
 Version:        2.7
-Release:        10%{?dist}
+Release:        11%{?dist}
 Summary:        Maven Deploy Plugin
 
 Group:          Development/Libraries
@@ -63,6 +63,9 @@ API documentation for %{name}.
 %doc LICENSE
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 2.7-11
+- Mass rebuild 2013-12-27
+
 * Mon Aug 19 2013 Stanislav Ochotnicky <sochotnicky@redhat.com> - 2.7-10
 - Migrate away from mvn-rpmbuild (#997454)
 
